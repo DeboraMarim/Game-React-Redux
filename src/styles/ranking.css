@@ -1,0 +1,85 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.link {
+  align-items: center;
+  background-color: #1b2f31;
+  border-radius: 50px;
+  color: #1cc49d;
+  cursor: pointer;
+  display: flex;
+  font-size: large;
+  font-style: none;
+  font-weight: 600;
+  height: 3em;
+  justify-content: center;
+  margin: 10px;
+  text-decoration: none;
+  width: 8em;
+}
+
+.ranking-page {
+  align-items: center;
+  background-color: rgb(124, 123, 122);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.image {
+  border-radius: 50%;
+  max-height: 130px;
+  max-width: 130px;
+  padding: 20px;
+}
+
+h2 {
+  color: azure;
+  font-family: monospace;
+  font-size: 50px;
+
+}
+
+.ranking-header {
+  align-items: center;
+  background-color: rgb(31, 29, 29);
+  color: azure;
+  display: flex;
+  justify-content: center;
+  max-height: 10vh;
+  min-width: 100vw;
+
+}
+
+.score {
+  font-size: 30px;
+  padding: 20px;
+
+  /* background-color: aliceblue; */
+}
+
+.ranking-results {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.results {
+  background-color: rgba(52, 49, 49, 0.392);
+  border: solid black 2px;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 15px;
+}

@@ -1,0 +1,57 @@
+.feedback-content {
+  align-items: center;
+  background-color: rgb(51, 51, 53);
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+p {
+  font-family: monospace;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.btn-again {
+  align-items: center;
+  background-color: #1b2f31;
+  border-radius: 50px;
+  color: #1cc49d;
+  cursor: pointer;
+  display: flex;
+  font-size: large;
+  font-style: none;
+  font-weight: 600;
+  height: 3em;
+  justify-content: center;
+  margin: 10px;
+  text-decoration: none;
+  width: 8em;
+}
+
+.btn-ranking {
+  align-items: center;
+  background-color: #1b2f31;
+  border-radius: 50px;
+  color: #1cc49d;
+  cursor: pointer;
+  display: flex;
+  font-size: large;
+  font-style: none;
+  font-weight: 600;
+  height: 3em;
+  justify-content: center;
+  margin: 10px;
+  text-decoration: none;
+  width: 8em;
+}
+
+label {
+  align-items: center;
+  display: flex;
+  font-family: monospace;
+  font-size: 3em;
+  justify-content: center;
+}

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component renders correctly 1`] = `
+<Memo(Connect(Login))
+  dispatch={[MockFunction]}
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+/>
+`;

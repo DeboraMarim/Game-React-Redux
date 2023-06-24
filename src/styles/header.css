@@ -1,0 +1,24 @@
+.header-content {
+  align-items: center;
+  background-color: rgb(31, 29, 29);
+  color: azure;
+  display: flex;
+  justify-content: flex-end;
+  max-height: 10vh;
+}
+
+.header-content img {
+  border-radius: 50%;
+  max-height: 50px;
+  max-width: 50px;
+  padding: 20px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.score {
+  font-size: 20px;
+  padding: 40px;
+}

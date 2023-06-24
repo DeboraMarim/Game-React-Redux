@@ -1,0 +1,92 @@
+.game-content {
+  background-color: rgb(51, 51, 53);
+  min-height: 100vh;
+}
+
+.form-content {
+  text-align: center;
+}
+
+.form-content h3 {
+  color: azure;
+  font-family: monospace;
+  font-size: 30px;
+  position: relative;
+  top: -290px;
+}
+
+.question-input {
+  color: azure;
+  font-family: Courier , monospace;
+  font-size: 28px;
+  margin-top: 50px;
+  position: relative;
+  top: -280px;
+}
+
+.timer-content {
+  color: azure;
+  font-size: 40px;
+  position: relative;
+  top: -100px;
+}
+
+.answers {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -200px;
+}
+
+.answers-btn {
+  background-color: rgb(51, 51, 53);
+  border: 2px solid azure;
+  border-radius: 2%;
+  color: azure;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 30px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.answers button:disabled {
+  background-color: rgb(99, 15, 15);
+  cursor: not-allowed;
+}
+
+@keyframes flash {
+
+  0% { opacity: 0; }
+
+  50% { opacity: 0.5; }
+
+  100% { opacity: 1; }
+}
+
+.green {
+  animation-duration: 0.2s;
+  animation-iteration-count: 5;
+  animation-name: flash;
+  background-color: rgb(8, 54, 12);
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.red {
+  background-color: rgb(99, 15, 15);
+  border: 3px solid red;
+}
+
+.next-btn {
+  background-color: rgb(17, 17, 17);
+  border: 2px solid black;
+  color: azure;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 25px;
+  left: 45%;
+  max-width: 10%;
+  position: relative;
+  top: -100px;
+}
